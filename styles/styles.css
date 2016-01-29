@@ -1,0 +1,66 @@
+*, *:before, *:after {
+
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px; 
+}
+
+ h1 {
+        font-family: 'Raleway', serif;
+        font-size: 48px;
+      }
+
+
+.nav-bar {
+    background-color:#eeeeee;
+    height:30px;
+    width:100%;
+    padding-left:5px; 
+}
+
+.nav-item {
+    display: inline-block;
+    line-height: 30px;
+
+}
+
+.nav-list {
+    margin: 0;
+    padding:0;
+}
+
+.hero {
+    max-width: 100%;
+}
+
+.logo {
+
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+section {
+    padding:10px; 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
