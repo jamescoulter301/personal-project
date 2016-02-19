@@ -177,11 +177,13 @@ section {
 
 .mobile-menu {
     position: absolute; 
-    top: 70px;
+    top: 50px;
     height: 100px; 
     width: 100%; 
     background-color: black;
     display: none;
+    position: fixed;
+
 }
 
 /*footer {
@@ -218,8 +220,10 @@ section {
     }
 
     .mobile-menu {
-        display: none;
+        visibility: hidden;
     }
+
+
 
    
 }
@@ -234,7 +238,7 @@ section {
     }
 
      .mobile-menu {
-        display: none;
+        visibility: hidden;
     }
 
 }
